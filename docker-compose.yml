@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tesseract-web-service:
+    build:
+      context: .
+    container_name: tesseract-service
+    ports:
+      - "5000:5000"
